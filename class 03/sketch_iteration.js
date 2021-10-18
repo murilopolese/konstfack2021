@@ -52,7 +52,7 @@ function draw() {
       fill((x+y)*10)
       square(
         50 + x*rectangleSize, // X
-        650 + y*rectangleSize,
+        550 + y*rectangleSize,
         rectangleSize
       )
     }
@@ -62,19 +62,19 @@ function draw() {
   for (let i = 0; i < 50; i++) {
     line(
       300 + i*3,
-      650,
+      550,
       300 + i*3,
       850
     )
   }
-  translate(300, 650)
+  translate(300, 550)
   rotate(0.1*frameCount % 30)
   for (let i = 0; i < 50; i++) {
     line(
       i*3,
       0,
       i*3,
-      200
+      300
     )
   }
 
